@@ -343,6 +343,21 @@ export const MESSAGES = {
 
 export const LANGUAGES = Object.keys(MESSAGES);
 
+/**
+ * Picks the interface language for a first visit from the browser's
+ * preferred languages: Serbian for readers of Serbian and the closely
+ * related languages (Croatian, Bosnian, Montenegrin), English for everyone else.
+ */
+const SERBIAN_FAMILY = ["sr", "hr", "bs", "sh", "cnr"];
+export function detectLanguage(preferred = []) {
+  for (const tag of preferred) {
+    const primary = String(tag || "").toLowerCase().split(/[-_]/)[0];
+    if (SERBIAN_FAMILY.includes(primary)) return "sr";
+    if (LANGUAGES.includes(primary)) return primary;
+  }
+  return "en";
+}
+
 export function createI18n(initial = "sr") {
   let lang = LANGUAGES.includes(initial) ? initial : "sr";
   let rules = new Intl.PluralRules(localeFor(lang));

@@ -276,6 +276,21 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .icon-btn[aria-pressed="true"] { background: var(--brand-tint); color: var(--brand-ink); }
 .icon-btn--text { font-weight: 700; font-size: 0.85rem; letter-spacing: 0.02em; }
 
+/* Language switch: both languages visible, the active one filled */
+.lang-switch {
+  display: inline-flex; gap: 2px; height: 40px; padding: 3px;
+  border: 1px solid var(--line); border-radius: 999px; background: var(--surface-2);
+}
+.lang-switch button {
+  min-width: 38px; padding: 0 10px; border: 0; border-radius: 999px;
+  background: transparent; color: var(--muted); cursor: pointer;
+  font: inherit; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.04em;
+  transition: background-color 0.2s, color 0.2s;
+}
+.lang-switch button:hover { color: var(--text); }
+.lang-switch button[aria-pressed="true"] { background: var(--brand-solid); color: var(--brand-contrast); }
+.lang-switch button:focus-visible { outline: 2px solid var(--brand-ink); outline-offset: 2px; }
+
 .link-btn {
   padding: 4px 2px; border: 0; background: none; cursor: pointer;
   color: var(--muted); text-decoration: underline; text-underline-offset: 0.18em; font-size: 0.9rem;

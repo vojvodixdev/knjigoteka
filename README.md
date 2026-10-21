@@ -3,7 +3,7 @@
 **An offline-first Progressive Web App for finding books and keeping a personal reading shelf.**
 Search the [Open Library](https://openlibrary.org) catalogue, save books as *want to read*, *reading* or *read*, rate them, write notes, and browse your collection as a real bookcase. Everything you save works without an internet connection, and the app installs on desktop and phone like a native app.
 
-Serbian & English UI &nbsp;·&nbsp; No framework, no build step
+**[Open the live app](https://vojvodixdev.github.io/knjigoteka/)** &nbsp;·&nbsp; Serbian & English UI &nbsp;·&nbsp; No framework, no build step
 
 <p>
   <img src="docs/home.png" alt="Home page with search and a preview of the reader's bookcase" width="100%">
@@ -103,16 +103,16 @@ A service worker needs `http://localhost` or HTTPS, so opening `index.html` dire
 ## Tests
 
 ```bash
-npm test             # 39 unit tests (node:test) – API URLs and parsing, store, router, i18n
+npm test             # 40 unit tests (node:test) – API URLs and parsing, store, router, i18n
 npx playwright install chromium
-npm run test:e2e     # end-to-end on desktop and mobile viewports
+npm run test:e2e     # 34 end-to-end tests on desktop and mobile viewports
 ```
 
 End-to-end tests mock Open Library with fixtures, so they are fast and deterministic. They cover search, pagination, sorting and filters, saving and undo, the book page (status, rating, autosaved note surviving a reload), shared deep links, shelf tabs and views, export/import, language and theme persistence, the keyboard shortcut, axe accessibility checks on every screen, the manifest, and a real offline run with the service worker.
 
 ## Deployment
 
-The GitHub Actions workflow in `.github/workflows/ci.yml` runs all tests and, on `main`, publishes `app/` to GitHub Pages. In the repository settings choose **Pages → Source: GitHub Actions**.
+The GitHub Actions workflow in `.github/workflows/ci.yml` runs all tests and, on `main`, publishes `app/` to GitHub Pages at [vojvodixdev.github.io/knjigoteka](https://vojvodixdev.github.io/knjigoteka/). In the repository settings choose **Pages → Source: GitHub Actions**.
 
 When releasing a change to app files, bump `VERSION` in `app/sw.js` so installed copies pick up the update.
 

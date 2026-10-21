@@ -102,7 +102,10 @@
           <svg class="icon" aria-hidden="true"><use href="#i-install"></use></svg>
           <span data-i18n="app.install">Instaliraj</span>
         </button>
-        <button id="lang-btn" class="icon-btn icon-btn--text" type="button">EN</button>
+        <div id="lang-switch" class="lang-switch" role="group" aria-label="Jezik / Language">
+          <button type="button" data-lang="en" lang="en" aria-pressed="false" aria-label="English" title="English">EN</button>
+          <button type="button" data-lang="sr" lang="sr" aria-pressed="true" aria-label="Srpski" title="Srpski">SR</button>
+        </div>
         <button id="theme-btn" class="icon-btn" type="button">
           <svg class="icon" aria-hidden="true"><use href="#i-moon"></use></svg>
         </button>

@@ -143,7 +143,8 @@ test("shelf: tabs, views, export and import", async ({ page }) => {
 
 test("language and theme are remembered", async ({ page }) => {
   await page.goto("/");
-  await page.getByRole("button", { name: "Switch to English" }).click();
+  await page.getByRole("button", { name: "English" }).click();
+  await expect(page.getByRole("button", { name: "English" })).toHaveAttribute("aria-pressed", "true");
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("What are you reading next?");
   await page.getByRole("button", { name: "Switch to dark mode" }).click();
   await page.reload();
@@ -166,3 +167,13 @@ for (const path of ["/", "/#/search?q=andri%C4%87", "/#/book/OL9000001W", "/#/sh
     expect(results.violations.map((v) => `${v.id}: ${v.nodes.length}`)).toEqual([]);
   });
 }
+
+test.describe("visitor with an English browser", () => {
+  test.use({ locale: "en-US" });
+  test("sees the English interface on the first visit", async ({ page }) => {
+    await page.goto("/");
+    await expect(page.locator("html")).toHaveAttribute("lang", "en");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("What are you reading next?");
+    await expect(page.getByRole("button", { name: "English" })).toHaveAttribute("aria-pressed", "true");
+  });
+});

@@ -9,7 +9,7 @@
 import { createApi } from "./api.js";
 import { createStore } from "./store.js";
 import { parseRoute, searchHash } from "./router.js";
-import { createI18n, LANGUAGES } from "./i18n.js";
+import { createI18n, detectLanguage, LANGUAGES } from "./i18n.js";
 import { announce, syncShelfButtons, toast, emptyStateHtml } from "./ui.js";
 import { initPwa, requestPersistence } from "./pwa.js";
 import { renderHome } from "./views/home.js";
@@ -33,7 +33,7 @@ function safeStorage() {
 }
 
 const store = createStore(safeStorage());
-const i18n = createI18n(store.settings.lang || "sr");
+const i18n = createI18n(store.settings.lang || detectLanguage(navigator.languages?.length ? navigator.languages : [navigator.language]));
 const api = createApi();
 const workCache = new Map();
 const scrollPositions = new Map();
@@ -41,7 +41,7 @@ const scrollPositions = new Map();
 const view = document.getElementById("view");
 const shelfCount = document.getElementById("shelf-count");
 const themeButton = document.getElementById("theme-btn");
-const langButton = document.getElementById("lang-btn");
+const langSwitch = document.getElementById("lang-switch");
 const themeColor = document.querySelector('meta[name="theme-color"]');
 
 /** Shared context handed to every view. */
@@ -240,14 +240,14 @@ function applyLanguage() {
   document.documentElement.lang = i18n.lang;
   document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = t(el.dataset.i18n); });
   document.querySelectorAll("[data-i18n-label]").forEach((el) => el.setAttribute("aria-label", t(el.dataset.i18nLabel)));
-  langButton.textContent = LANGUAGES.find((l) => l !== i18n.lang).toUpperCase();
-  langButton.setAttribute("aria-label", t("lang.switch"));
-  langButton.title = t("lang.switch");
+  langSwitch.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === i18n.lang)));
   applyTheme();
 }
 
-langButton.addEventListener("click", () => {
-  const next = LANGUAGES.find((l) => l !== i18n.lang);
+langSwitch.addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-lang]");
+  if (!button || !LANGUAGES.includes(button.dataset.lang) || button.dataset.lang === i18n.lang) return;
+  const next = button.dataset.lang;
   store.setSetting("lang", next);
   i18n.setLang(next);
   applyLanguage();

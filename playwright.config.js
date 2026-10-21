@@ -20,7 +20,8 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI,
   },
   projects: [
-    { name: "desktop", use: { ...devices["Desktop Chrome"] } },
-    { name: "mobile", use: { ...devices["Pixel 7"] }, testIgnore: /pwa\.spec/ },
+    // Tests read the Serbian interface; a Serbian browser gets it on the first visit.
+    { name: "desktop", use: { ...devices["Desktop Chrome"], locale: "sr-RS" } },
+    { name: "mobile", use: { ...devices["Pixel 7"], locale: "sr-RS" }, testIgnore: /pwa\.spec/ },
   ],
 });

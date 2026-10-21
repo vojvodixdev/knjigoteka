@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { createI18n, MESSAGES } from "../../app/js/i18n.js";
+import { createI18n, detectLanguage, MESSAGES } from "../../app/js/i18n.js";
 import { sortShelf } from "../../app/js/views/shelf.js";
 
 test("Serbian and English have the same keys", () => {
@@ -34,4 +34,13 @@ test("sortShelf orders with the reader's locale", () => {
   assert.deepEqual(sortShelf(books, "author", "sr").map((b) => b.title), ["Cvet", "Čovek", "Zid"]);
   assert.deepEqual(sortShelf(books, "rating").map((b) => b.title), ["Cvet", "Zid", "Čovek"]);
   assert.deepEqual(sortShelf(books, "added").map((b) => b.title), ["Zid", "Cvet", "Čovek"]);
+});
+
+test("first-visit language follows the browser", () => {
+  assert.equal(detectLanguage(["sr-RS", "en-US"]), "sr");
+  assert.equal(detectLanguage(["hr-HR"]), "sr");
+  assert.equal(detectLanguage(["bs"]), "sr");
+  assert.equal(detectLanguage(["de-DE", "en-GB"]), "en");
+  assert.equal(detectLanguage(["en-US"]), "en");
+  assert.equal(detectLanguage([]), "en");
 });
