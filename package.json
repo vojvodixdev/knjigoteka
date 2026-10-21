@@ -1,0 +1,21 @@
+{
+  "name": "knjigoteka",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Offline-first PWA for searching books (Open Library) and keeping a personal reading shelf.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs app 8080",
+    "test": "node --test \"tests/unit/*.test.js\"",
+    "test:e2e": "playwright test",
+    "test:all": "npm test && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "1.56.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

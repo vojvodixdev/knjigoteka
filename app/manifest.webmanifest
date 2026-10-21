@@ -1,0 +1,29 @@
+{
+  "id": "./",
+  "name": "Knjigoteka – pretraga knjiga i lična polica",
+  "short_name": "Knjigoteka",
+  "description": "Pretraži katalog Open Library, sačuvaj knjige na svoju policu i prati šta čitaš. Radi i bez interneta.",
+  "lang": "sr-Latn",
+  "dir": "ltr",
+  "start_url": "./?source=pwa#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#eceeea",
+  "theme_color": "#1b4332",
+  "categories": ["books", "education", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Moja polica", "short_name": "Polica", "url": "./?source=shortcut#/shelf", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Pretraga", "url": "./?source=shortcut#/search", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ],
+  "screenshots": [
+    { "src": "screenshots/wide-home.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide", "label": "Početna strana sa pretragom i policom" },
+    { "src": "screenshots/narrow-shelf.png", "sizes": "390x844", "type": "image/png", "form_factor": "narrow", "label": "Moja polica na telefonu" }
+  ]
+}

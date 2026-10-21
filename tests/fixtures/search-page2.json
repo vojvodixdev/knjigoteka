@@ -1,0 +1,111 @@
+{
+ "numFound": 30,
+ "start": 0,
+ "docs": [
+  {
+   "key": "/works/OL9000113W",
+   "title": "Sabrana dela, knjiga 13",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1964,
+   "edition_count": 34,
+   "language": [
+    "srp",
+    "hrv"
+   ],
+   "number_of_pages_median": 349,
+   "ratings_average": 4.8,
+   "ratings_count": 207,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000114W",
+   "title": "Sabrana dela, knjiga 14",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1965,
+   "edition_count": 41,
+   "language": [
+    "srp",
+    "hrv",
+    "eng"
+   ],
+   "number_of_pages_median": 402,
+   "ratings_average": 4.6,
+   "ratings_count": 238,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000115W",
+   "title": "Sabrana dela, knjiga 15",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1966,
+   "edition_count": 8,
+   "language": [
+    "srp",
+    "hrv",
+    "eng",
+    "ger"
+   ],
+   "number_of_pages_median": 455,
+   "ratings_average": 4.4,
+   "ratings_count": 269,
+   "ebook_access": "borrowable"
+  },
+  {
+   "key": "/works/OL9000116W",
+   "title": "Sabrana dela, knjiga 16",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1963,
+   "edition_count": 15,
+   "language": [
+    "srp"
+   ],
+   "number_of_pages_median": 508,
+   "ratings_average": 4.2,
+   "ratings_count": 300,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000117W",
+   "title": "Sabrana dela, knjiga 17",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1964,
+   "edition_count": 22,
+   "language": [
+    "srp",
+    "hrv"
+   ],
+   "number_of_pages_median": 561,
+   "ratings_average": 4,
+   "ratings_count": 31,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000118W",
+   "title": "Sabrana dela, knjiga 18",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1965,
+   "edition_count": 29,
+   "language": [
+    "srp",
+    "hrv",
+    "eng"
+   ],
+   "number_of_pages_median": 134,
+   "ratings_average": 3.8,
+   "ratings_count": 62,
+   "ebook_access": "no_ebook"
+  }
+ ]
+}

@@ -1,0 +1,426 @@
+{
+ "numFound": 30,
+ "start": 0,
+ "docs": [
+  {
+   "key": "/works/OL9000001W",
+   "title": "Na Drini ćuprija",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1945,
+   "edition_count": 10,
+   "language": [
+    "srp",
+    "hrv"
+   ],
+   "number_of_pages_median": 173,
+   "ratings_average": 4.7,
+   "ratings_count": 35,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000002W",
+   "title": "Prokleta avlija",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1954,
+   "edition_count": 17,
+   "language": [
+    "srp",
+    "hrv",
+    "eng"
+   ],
+   "number_of_pages_median": 226,
+   "ratings_average": 4.5,
+   "ratings_count": 66,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000003W",
+   "title": "Travnička hronika",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1945,
+   "edition_count": 24,
+   "language": [
+    "srp",
+    "hrv",
+    "eng",
+    "ger"
+   ],
+   "number_of_pages_median": 279,
+   "ratings_average": 4.3,
+   "ratings_count": 97,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000004W",
+   "title": "Gospođica",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1945,
+   "edition_count": 31,
+   "language": [
+    "srp"
+   ],
+   "number_of_pages_median": 332,
+   "ratings_average": 4.1,
+   "ratings_count": 128,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000005W",
+   "title": "Ex Ponto",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1918,
+   "edition_count": 38,
+   "language": [
+    "srp",
+    "hrv"
+   ],
+   "number_of_pages_median": 385,
+   "ratings_average": 3.9,
+   "ratings_count": 159,
+   "ebook_access": "borrowable"
+  },
+  {
+   "key": "/works/OL9000006W",
+   "title": "Znakovi pored puta",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1976,
+   "edition_count": 5,
+   "language": [
+    "srp",
+    "hrv",
+    "eng"
+   ],
+   "number_of_pages_median": 438,
+   "ratings_average": 3.6999999999999997,
+   "ratings_count": 190,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000007W",
+   "title": "Most na Žepi",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1925,
+   "edition_count": 12,
+   "language": [
+    "srp",
+    "hrv",
+    "eng",
+    "ger"
+   ],
+   "number_of_pages_median": 491,
+   "ratings_average": 3.5,
+   "ratings_count": 221,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000008W",
+   "title": "Anikina vremena",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1931,
+   "edition_count": 19,
+   "language": [
+    "srp"
+   ],
+   "number_of_pages_median": 544,
+   "ratings_average": 4.8,
+   "ratings_count": 252,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000009W",
+   "title": "Jelena, žena koje nema",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1963,
+   "edition_count": 26,
+   "language": [
+    "srp",
+    "hrv"
+   ],
+   "number_of_pages_median": 597,
+   "ratings_average": 4.6,
+   "ratings_count": 283,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000010W",
+   "title": "Omerpaša Latas",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1977,
+   "edition_count": 33,
+   "language": [
+    "srp",
+    "hrv",
+    "eng"
+   ],
+   "number_of_pages_median": 170,
+   "ratings_average": 4.4,
+   "ratings_count": 14,
+   "ebook_access": "borrowable"
+  },
+  {
+   "key": "/works/OL9000011W",
+   "title": "Pripovetke",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1924,
+   "edition_count": 40,
+   "language": [
+    "srp",
+    "hrv",
+    "eng",
+    "ger"
+   ],
+   "number_of_pages_median": 223,
+   "ratings_average": 4.2,
+   "ratings_count": 45,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000012W",
+   "title": "Nemiri",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1920,
+   "edition_count": 7,
+   "language": [
+    "srp"
+   ],
+   "number_of_pages_median": 276,
+   "ratings_average": 4,
+   "ratings_count": 76,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000101W",
+   "title": "Sabrana dela, knjiga 1",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1964,
+   "edition_count": 30,
+   "language": [
+    "srp",
+    "hrv"
+   ],
+   "number_of_pages_median": 193,
+   "ratings_average": 4.2,
+   "ratings_count": 135,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000102W",
+   "title": "Sabrana dela, knjiga 2",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1965,
+   "edition_count": 37,
+   "language": [
+    "srp",
+    "hrv",
+    "eng"
+   ],
+   "number_of_pages_median": 246,
+   "ratings_average": 4,
+   "ratings_count": 166,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000103W",
+   "title": "Sabrana dela, knjiga 3",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1966,
+   "edition_count": 4,
+   "language": [
+    "srp",
+    "hrv",
+    "eng",
+    "ger"
+   ],
+   "number_of_pages_median": 299,
+   "ratings_average": 3.8,
+   "ratings_count": 197,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000104W",
+   "title": "Sabrana dela, knjiga 4",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1963,
+   "edition_count": 11,
+   "language": [
+    "srp"
+   ],
+   "number_of_pages_median": 352,
+   "ratings_average": 3.6,
+   "ratings_count": 228,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000105W",
+   "title": "Sabrana dela, knjiga 5",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1964,
+   "edition_count": 18,
+   "language": [
+    "srp",
+    "hrv"
+   ],
+   "number_of_pages_median": 405,
+   "ratings_average": 3.4,
+   "ratings_count": 259,
+   "ebook_access": "borrowable"
+  },
+  {
+   "key": "/works/OL9000106W",
+   "title": "Sabrana dela, knjiga 6",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1965,
+   "edition_count": 25,
+   "language": [
+    "srp",
+    "hrv",
+    "eng"
+   ],
+   "number_of_pages_median": 458,
+   "ratings_average": 4.7,
+   "ratings_count": 290,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000107W",
+   "title": "Sabrana dela, knjiga 7",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1966,
+   "edition_count": 32,
+   "language": [
+    "srp",
+    "hrv",
+    "eng",
+    "ger"
+   ],
+   "number_of_pages_median": 511,
+   "ratings_average": 4.5,
+   "ratings_count": 21,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000108W",
+   "title": "Sabrana dela, knjiga 8",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1963,
+   "edition_count": 39,
+   "language": [
+    "srp"
+   ],
+   "number_of_pages_median": 564,
+   "ratings_average": 4.3,
+   "ratings_count": 52,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000109W",
+   "title": "Sabrana dela, knjiga 9",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1964,
+   "edition_count": 6,
+   "language": [
+    "srp",
+    "hrv"
+   ],
+   "number_of_pages_median": 137,
+   "ratings_average": 4.1,
+   "ratings_count": 83,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000110W",
+   "title": "Sabrana dela, knjiga 10",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1965,
+   "edition_count": 13,
+   "language": [
+    "srp",
+    "hrv",
+    "eng"
+   ],
+   "number_of_pages_median": 190,
+   "ratings_average": 3.9,
+   "ratings_count": 114,
+   "ebook_access": "borrowable"
+  },
+  {
+   "key": "/works/OL9000111W",
+   "title": "Sabrana dela, knjiga 11",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1966,
+   "edition_count": 20,
+   "language": [
+    "srp",
+    "hrv",
+    "eng",
+    "ger"
+   ],
+   "number_of_pages_median": 243,
+   "ratings_average": 3.6999999999999997,
+   "ratings_count": 145,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000112W",
+   "title": "Sabrana dela, knjiga 12",
+   "author_name": [
+    "Ivo Andrić"
+   ],
+   "first_publish_year": 1963,
+   "edition_count": 27,
+   "language": [
+    "srp"
+   ],
+   "number_of_pages_median": 296,
+   "ratings_average": 3.5,
+   "ratings_count": 176,
+   "ebook_access": "no_ebook"
+  }
+ ]
+}

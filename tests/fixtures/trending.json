@@ -1,0 +1,165 @@
+{
+ "query": "trending",
+ "works": [
+  {
+   "key": "/works/OL9000200W",
+   "title": "1984",
+   "author_name": [
+    "George Orwell"
+   ],
+   "first_publish_year": 1949,
+   "edition_count": 3,
+   "language": [
+    "eng"
+   ],
+   "number_of_pages_median": 160,
+   "ratings_average": 3.9,
+   "ratings_count": 204,
+   "ebook_access": "borrowable"
+  },
+  {
+   "key": "/works/OL9000201W",
+   "title": "The Hobbit",
+   "author_name": [
+    "J. R. R. Tolkien"
+   ],
+   "first_publish_year": 1937,
+   "edition_count": 10,
+   "language": [
+    "eng"
+   ],
+   "number_of_pages_median": 213,
+   "ratings_average": 3.6999999999999997,
+   "ratings_count": 235,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000202W",
+   "title": "Pride and Prejudice",
+   "author_name": [
+    "Jane Austen"
+   ],
+   "first_publish_year": 1813,
+   "edition_count": 17,
+   "language": [
+    "eng"
+   ],
+   "number_of_pages_median": 266,
+   "ratings_average": 3.5,
+   "ratings_count": 266,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000203W",
+   "title": "Dune",
+   "author_name": [
+    "Frank Herbert"
+   ],
+   "first_publish_year": 1965,
+   "edition_count": 24,
+   "language": [
+    "eng"
+   ],
+   "number_of_pages_median": 319,
+   "ratings_average": 4.8,
+   "ratings_count": 297,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000204W",
+   "title": "The Little Prince",
+   "author_name": [
+    "Antoine de Saint-Exupéry"
+   ],
+   "first_publish_year": 1943,
+   "edition_count": 31,
+   "language": [
+    "eng"
+   ],
+   "number_of_pages_median": 372,
+   "ratings_average": 4.6,
+   "ratings_count": 28,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000205W",
+   "title": "Crime and Punishment",
+   "author_name": [
+    "Fyodor Dostoyevsky"
+   ],
+   "first_publish_year": 1866,
+   "edition_count": 38,
+   "language": [
+    "eng"
+   ],
+   "number_of_pages_median": 425,
+   "ratings_average": 4.4,
+   "ratings_count": 59,
+   "ebook_access": "borrowable"
+  },
+  {
+   "key": "/works/OL9000206W",
+   "title": "One Hundred Years of Solitude",
+   "author_name": [
+    "Gabriel García Márquez"
+   ],
+   "first_publish_year": 1967,
+   "edition_count": 5,
+   "language": [
+    "eng"
+   ],
+   "number_of_pages_median": 478,
+   "ratings_average": 4.2,
+   "ratings_count": 90,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000207W",
+   "title": "The Master and Margarita",
+   "author_name": [
+    "Mikhail Bulgakov"
+   ],
+   "first_publish_year": 1967,
+   "edition_count": 12,
+   "language": [
+    "eng"
+   ],
+   "number_of_pages_median": 531,
+   "ratings_average": 4,
+   "ratings_count": 121,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000208W",
+   "title": "To Kill a Mockingbird",
+   "author_name": [
+    "Harper Lee"
+   ],
+   "first_publish_year": 1960,
+   "edition_count": 19,
+   "language": [
+    "eng"
+   ],
+   "number_of_pages_median": 584,
+   "ratings_average": 3.8,
+   "ratings_count": 152,
+   "ebook_access": "no_ebook"
+  },
+  {
+   "key": "/works/OL9000209W",
+   "title": "Frankenstein",
+   "author_name": [
+    "Mary Shelley"
+   ],
+   "first_publish_year": 1818,
+   "edition_count": 26,
+   "language": [
+    "eng"
+   ],
+   "number_of_pages_median": 157,
+   "ratings_average": 3.6,
+   "ratings_count": 183,
+   "ebook_access": "no_ebook"
+  }
+ ]
+}
