@@ -29,6 +29,12 @@ test("works offline after the first visit", async ({ page, context }) => {
   await expect.poll(() => page.evaluate(() => Boolean(navigator.serviceWorker.controller))).toBe(true);
 
   await context.setOffline(true);
+  // setOffline() does not reach requests the service worker makes itself, so
+  // on a machine with internet access (like a CI runner) its fetches to Open
+  // Library still succeeded and the page showed "no results" instead of the
+  // offline state. Cut every non-local request explicitly; playwright.config.js
+  // turns on service worker request interception so this applies to it too.
+  await context.route((url) => url.hostname !== "localhost", (route) => route.abort("internetdisconnected"));
   await page.reload();
   await expect(page.locator("#offline-bar")).toBeVisible();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Šta čitaš sledeće?");

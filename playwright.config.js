@@ -2,6 +2,11 @@ import { defineConfig, devices } from "@playwright/test";
 
 const PORT = 4173;
 
+// Let context.route() see requests made by the service worker (Chromium).
+// pwa.spec.js needs it to simulate a real network outage; other tests block
+// the service worker, so they are not affected.
+process.env.PW_EXPERIMENTAL_SERVICE_WORKER_NETWORK_EVENTS ??= "1";
+
 export default defineConfig({
   testDir: "tests/e2e",
   fullyParallel: true,
