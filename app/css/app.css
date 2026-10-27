@@ -724,9 +724,14 @@ a.spine:focus-visible { outline-offset: 3px; }
 
 .site-footer { border-top: 1px solid var(--line); padding: 28px 0 calc(28px + var(--nav-height) + env(safe-area-inset-bottom)); color: var(--muted); font-size: 0.875rem; }
 .site-footer__inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
-.site-footer__links { display: flex; gap: 20px; }
+.site-footer__links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; }
 .site-footer a { color: var(--muted); }
 .site-footer a:hover { color: var(--text); }
+
+/* Potpis autora: NV logo vodi na portfolio */
+.nv-credit { display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none; }
+.nv-credit:hover span, .nv-credit:focus-visible span { text-decoration: underline; text-underline-offset: 3px; }
+.nv-mark { flex: none; display: block; }
 
 /* Responsive */
 @media (min-width: 720px) {

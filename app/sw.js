@@ -12,7 +12,7 @@
    the reader taps "Reload" does the worker take over (SKIP_WAITING).
    ===================================================================== */
 
-const VERSION = "2.0.2";
+const VERSION = "2.0.3";
 const SHELL_CACHE = `knjigoteka-shell-${VERSION}`;
 const API_CACHE = "knjigoteka-api";
 const COVER_CACHE = "knjigoteka-covers";
