@@ -1,24 +1,24 @@
-MIT License
+Copyright (c) 2026 Nikola Vojvodić (https://vojvodixdev.github.io/)
+All rights reserved.
 
-Copyright (c) 2026 Nikola Vojvodić
+Knjigoteka is published so that its code can be read and evaluated as part of the
+author's portfolio. It is not open source, and no license is granted except as
+written below.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+You may:
+- view the source code on GitHub and in your browser;
+- download it and run it on your own computer, only to evaluate the author's
+  work (for example, while reviewing a job application).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+You may not, without prior written permission from the author:
+- copy, publish, host or distribute the code, design, text or images, in whole
+  or in part;
+- create, publish or sell modified versions or works based on it;
+- use it for any commercial purpose;
+- remove or change the copyright notices, the author credits or the author
+  marks embedded in the source files and images.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Third-party components keep their own licenses: the Literata and Atkinson Hyperlegible fonts
+(SIL Open Font License, see app/fonts) and book data and covers from Open Library.
 
-Fonts in app/fonts/ (Literata, Atkinson Hyperlegible) are licensed under the
-SIL Open Font License 1.1; see the OFL-*.txt files next to them.
+For permission, write to nikolavojvodic07@gmail.com.

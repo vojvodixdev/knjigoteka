@@ -1,3 +1,4 @@
+/* © 2026 Nikola Vojvodić · https://vojvodixdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
 /**
  * Serbian (Latin) and English UI strings.
  *
@@ -17,7 +18,7 @@ export const MESSAGES = {
     "lang.switch": "Switch to English",
     "footer.text": "Knjigoteka je progresivna web aplikacija. Radi i bez interneta i može da se instalira.",
     "footer.source": "Podaci: Open Library",
-    "footer.made": "Napravio Nikola Vojvodić",
+    "footer.made": "Napravio Nikola Vojvodić · © 2026",
 
     "nav.label": "Glavna navigacija",
     "nav.discover": "Otkrij",
@@ -184,7 +185,7 @@ export const MESSAGES = {
     "lang.switch": "Prebaci na srpski",
     "footer.text": "Knjigoteka is a progressive web app. It works offline and can be installed.",
     "footer.source": "Data: Open Library",
-    "footer.made": "Made by Nikola Vojvodić",
+    "footer.made": "Made by Nikola Vojvodić · © 2026",
 
     "nav.label": "Main navigation",
     "nav.discover": "Discover",

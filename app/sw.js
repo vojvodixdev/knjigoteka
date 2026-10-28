@@ -1,3 +1,4 @@
+/* © 2026 Nikola Vojvodić · https://vojvodixdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
 /* =====================================================================
    Knjigoteka – service worker
 
@@ -12,7 +13,7 @@
    the reader taps "Reload" does the worker take over (SKIP_WAITING).
    ===================================================================== */
 
-const VERSION = "2.0.3";
+const VERSION = "2.0.4";
 const SHELL_CACHE = `knjigoteka-shell-${VERSION}`;
 const API_CACHE = "knjigoteka-api";
 const COVER_CACHE = "knjigoteka-covers";

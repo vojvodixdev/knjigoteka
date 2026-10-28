@@ -1,3 +1,4 @@
+/* © 2026 Nikola Vojvodić · https://vojvodixdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
 /**
  * Progressive Web App wiring: service worker registration with an
  * "update available" prompt, offline indicator and the install button.

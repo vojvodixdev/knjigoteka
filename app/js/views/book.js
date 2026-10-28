@@ -1,3 +1,4 @@
+/* © 2026 Nikola Vojvodić · https://vojvodixdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
 /**
  * One book: cover, facts, description and subjects from the Works API,
  * plus the reader's own status, rating and note.

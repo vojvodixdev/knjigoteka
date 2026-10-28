@@ -1,3 +1,4 @@
+/* © 2026 Nikola Vojvodić · https://vojvodixdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
 /**
  * The reader's shelf: reading stats, status tabs, a bookcase (spines)
  * or grid view, and JSON backup/restore.

@@ -1,3 +1,4 @@
+/* © 2026 Nikola Vojvodić · https://vojvodixdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
 /**
  * Search results with sorting, filters and "show more" pagination.
  * All search state lives in the URL, so results can be shared and

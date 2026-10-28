@@ -1,3 +1,4 @@
+/* © 2026 Nikola Vojvodić · https://vojvodixdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
 /**
  * Hash-based routing. Every screen has a shareable URL and works with the
  * browser's back button, also when the app is installed or offline.

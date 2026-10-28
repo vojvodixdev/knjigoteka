@@ -1,3 +1,4 @@
+/* © 2026 Nikola Vojvodić · https://vojvodixdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
 /**
  * Small, dependency-free helpers. Everything here is pure so it can be
  * unit-tested in Node without a browser.

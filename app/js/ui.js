@@ -1,3 +1,4 @@
+/* © 2026 Nikola Vojvodić · https://vojvodixdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
 /**
  * Reusable UI pieces: covers, book cards, spines, skeletons, toasts.
  * Templates return HTML strings; every value coming from the API goes
